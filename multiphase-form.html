@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/multiphase-form.css">
+</head>
+<body>
+    <div class="container">
+        <form id="Form1">
+            <h1>Personal Info</h1>
+            <input type="text" id="firstname" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Age" required>
+                
+            <div class="btn-box">
+                <button type="button" id="firstNext">Next</button>
+            </div>
+            </form>
+
+            <form id="Form2">
+                <h1> Health Info</h1>
+                <input type="text" placeholder="Mat No" required>
+                <input type="text" placeholder="Faculty" required>
+                <input type="text" placeholder="Department" required>
+                <input type="text" placeholder="Course of Study" required>
+                <input type="number" placeholder="Level" required>
+                <div class="btn-box">
+                    <button type="button" id="firstBack">Back</button>
+                    <button type="button" id="secondNext">Next</button>
+                    </div>
+                </form>
+
+                <form id="Form3">
+                    <h1> Educational Info </h1>
+                    <input type="text" placeholder="Genotype" required>
+                    <input type="text" placeholder="Blood Group" required>
+                    <input type="text" placeholder="Disablities, seperate with comma" required>
+                    <div class="btn-box">
+                        <button type="button" id="secondBack">Back</button>
+                        <button type="submit">Submit</button>
+                        </div>
+                     </form>
+                     <div class="step-row">
+                        <div id="progress"></div>
+                       <div class="step-col"><small>STEP 1</small></div>
+                        <div class="step-col"><small>STEP 2</small></div>
+                        <div class="step-col"><small>STEP 3</small></div>
+                 </div>
+            </div>
+
+        <script src="multiphase-form.js"></script>
+    
+</body>
+</html>
