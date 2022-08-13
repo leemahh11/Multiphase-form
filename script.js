@@ -42,9 +42,3 @@ secondBack.onclick=function(){
 //         alert("please enter all the details")
 //     }
 // })
-
-
-
-
-
-
